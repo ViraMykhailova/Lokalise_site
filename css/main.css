@@ -167,7 +167,7 @@ body {
 
 .btn_2 {
   height: 45px;
-  padding: 0 22px;
+  padding: 0 25px;
   background-color: var(--orange);
   border: none;
   font-weight: 600;
@@ -185,11 +185,12 @@ body {
   color: var(--white);
   cursor: pointer;
   margin-right: 5px;
+  margin-bottom: 10px;
 }
 
 .btn_4 {
   height: 60px;
-  padding: 0 29px;
+  padding: 0 26px;
   background-color: var(--white);
   border: 1px solid rgba(0, 0, 0, 0.5019607843);
   font-size: 16px;
@@ -616,6 +617,7 @@ body {
 @media (max-width: 768px) {
   .flex_section7 {
     flex-wrap: wrap;
+    gap: 20px;
   }
 }
 
@@ -657,6 +659,7 @@ body {
 
 .border_left {
   max-width: 481px;
+  border-top: 1px solid var(--black);
   padding: 30px 62px 23px 41px;
 }
 @media (min-width: 768px) {
