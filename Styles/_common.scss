@@ -131,7 +131,7 @@ body {
   font-weight: 400;
 }
 .h1 {
-  font-size: 50px;
+  font-size: 40px;
   color: var(--black);
   @media (min-width: $md) {
     font-size: 65px;
@@ -158,7 +158,11 @@ body {
   font-size: 35px;
 }
 .line_height_70 {
-  line-height: 70px;
+  line-height: 50px;
+  @media (min-width: $md) {
+    line-height: 70px;
+  }
+
 }
 .line_height_50 {
   line-height: 50px;
@@ -174,7 +178,10 @@ body {
 }
 
 .line_height_75 {
-  line-height: 75px;
+  line-height: 55px;
+  @media (min-width: $md) {
+    line-height: 75px;
+  }
 }
 /*main*/
 
@@ -238,8 +245,8 @@ body {
   }
 }
 .h2 {
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 30px;
+  line-height: 40px;
   color: var(--black);
   @media (min-width: $md) {
     font-size: 50px;
@@ -297,7 +304,7 @@ body {
 /*section4*/
 .section4 {
   background-color: var(--yellow_light);
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 50px;
   @media (min-width: $md) {
     padding-top: 120px;
@@ -360,8 +367,8 @@ body {
   max-width: 409px;
 }
 .section5 {
-  padding-top: 60px;
-  padding-bottom: 70px;
+  padding-top: 50px;
+  padding-bottom: 60px;
   @media (min-width: $md) {
     padding-top: 154px;
     padding-bottom: 215px;
@@ -396,10 +403,11 @@ body {
 /*section6*/
 .section6 {
   background-color: var(--blue);
-  padding-top: 65px;
+  padding-top: 50px;
   padding-bottom: 50px;
   @media (min-width: $md) {
     padding-bottom: 105px;
+    padding-top: 65px;
   }
 }
 .flex_section6 {
@@ -447,7 +455,7 @@ body {
   }
 }
 .gap_67 {
-  gap: 40px;
+  gap: 30px;
   @media (min-width: $md) {
     gap: 67px;
   }
@@ -466,14 +474,33 @@ body {
 }
 .border_left {
   max-width: 481px;
-  border-left: 1px solid var(--black);
+  
   padding: 30px 62px 23px 41px;
   @media (min-width: $md) {
     padding: 30px 62px 23px 71px;
+    border-left: 1px solid var(--black);
+  }
+}
+@media (max-width: $md) {
+  .cake_icon {
+    display: block;
+    margin: 0 auto;
+  }
+  .section7_txt {
+    text-align: center;
+  }
+  .block2 {
+    margin: 0 auto;
+  }
+  .block3 {
+    margin: 0 auto;
   }
 }
 
-/*section8*/
+.img_responsive {
+  width: 100%;
+}
+ /*section8*/
 .section8 {
   padding: 50px 0;
   @media (min-width: $md) {

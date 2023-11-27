@@ -214,7 +214,7 @@ body {
 }
 
 .h1 {
-  font-size: 50px;
+  font-size: 40px;
   color: var(--black);
 }
 @media (min-width: 768px) {
@@ -250,7 +250,12 @@ body {
 }
 
 .line_height_70 {
-  line-height: 70px;
+  line-height: 50px;
+}
+@media (min-width: 768px) {
+  .line_height_70 {
+    line-height: 70px;
+  }
 }
 
 .line_height_50 {
@@ -270,7 +275,12 @@ body {
 }
 
 .line_height_75 {
-  line-height: 75px;
+  line-height: 55px;
+}
+@media (min-width: 768px) {
+  .line_height_75 {
+    line-height: 75px;
+  }
 }
 
 /*main*/
@@ -348,8 +358,8 @@ body {
 }
 
 .h2 {
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 30px;
+  line-height: 40px;
   color: var(--black);
 }
 @media (min-width: 768px) {
@@ -426,7 +436,7 @@ body {
 /*section4*/
 .section4 {
   background-color: var(--yellow_light);
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 @media (min-width: 768px) {
@@ -507,8 +517,8 @@ body {
 }
 
 .section5 {
-  padding-top: 60px;
-  padding-bottom: 70px;
+  padding-top: 50px;
+  padding-bottom: 60px;
 }
 @media (min-width: 768px) {
   .section5 {
@@ -553,12 +563,13 @@ body {
 /*section6*/
 .section6 {
   background-color: var(--blue);
-  padding-top: 65px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 @media (min-width: 768px) {
   .section6 {
     padding-bottom: 105px;
+    padding-top: 65px;
   }
 }
 
@@ -622,7 +633,7 @@ body {
 }
 
 .gap_67 {
-  gap: 40px;
+  gap: 30px;
 }
 @media (min-width: 768px) {
   .gap_67 {
@@ -646,13 +657,32 @@ body {
 
 .border_left {
   max-width: 481px;
-  border-left: 1px solid var(--black);
   padding: 30px 62px 23px 41px;
 }
 @media (min-width: 768px) {
   .border_left {
     padding: 30px 62px 23px 71px;
+    border-left: 1px solid var(--black);
   }
+}
+
+@media (max-width: 768px) {
+  .cake_icon {
+    display: block;
+    margin: 0 auto;
+  }
+  .section7_txt {
+    text-align: center;
+  }
+  .block2 {
+    margin: 0 auto;
+  }
+  .block3 {
+    margin: 0 auto;
+  }
+}
+.img_responsive {
+  width: 100%;
 }
 
 /*section8*/
